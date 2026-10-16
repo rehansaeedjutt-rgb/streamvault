@@ -1,0 +1,30 @@
+{
+  "name": "streamvault",
+  "version": "0.1.0",
+  "description": "Multi-chain stablecoin payment monitoring. Deposit detection, confirmation tracking, webhooks, reconciliation.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/main.ts",
+    "watch": "tsx watch src/main.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["stablecoin", "usdt", "usdc", "payments", "web3", "ethereum", "polygon"],
+  "license": "MIT",
+  "author": "Muhammad Rehan Saeed",
+  "dependencies": {
+    "viem": "^2.21.45"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}
